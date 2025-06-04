@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 8301348219259879421}
   - component: {fileID: 8301348219261093245}
   - component: {fileID: 114938267180336396}
+  - component: {fileID: 1954396296982044453}
   m_Layer: 0
   m_Name: SimpleFPSController
   m_TagString: Untagged
@@ -302,6 +303,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ec1e4163795c0d48ab82a37ce550479, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  yFallHeight: -25
+--- !u!114 &1954396296982044453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8301348219256675485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ae7b33d0095486418e7f3fbc35cdca3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  money: 100000
 --- !u!1 &8301348219256675487
 GameObject:
   m_ObjectHideFlags: 0

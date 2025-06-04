@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6522645135700849402}
   - component: {fileID: 2953685380197567436}
+  - component: {fileID: 1936644490549682216}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -48,6 +49,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1936644490549682216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1325774775781314636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47de924b2910e9244bd34a93c9a1ca44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  precio: 10
+  MoneyManager: {fileID: 0}
 --- !u!65 &8347177187857256626
 BoxCollider:
   m_ObjectHideFlags: 0
