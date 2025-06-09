@@ -6,14 +6,18 @@ using TMPro;
 public class UIManager : MonoBehaviour
 {
     public TextMeshProUGUI PlataVisible;
+    public TextMeshProUGUI HP_Txt;
     // Start is called before the first frame update
     void Start()
     {
-        PlataVisible.text = "$0";
     }
 
     public void UpdateMoneyText(string moneyAmount)
     {
         PlataVisible.text = "$" + moneyAmount;
+    }
+    public void UpdateHPTxt(string HPAmount)
+    {
+        HP_Txt.text = "HP " + HPAmount;
     }
 }

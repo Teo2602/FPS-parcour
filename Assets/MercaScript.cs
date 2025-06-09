@@ -13,7 +13,6 @@ public class MercaScript : MonoBehaviour
     }
     private void OnCollisionEnter(Collision collision)
     {
-        Debug.Log(collision.gameObject.name);
         if (collision.gameObject.name == "Player")
         {
             if (MoneyManager.UpdateMoney(-precio))
